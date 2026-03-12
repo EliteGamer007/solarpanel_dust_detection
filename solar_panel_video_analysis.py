@@ -220,7 +220,7 @@ def process_video_headless(input_video_path, output_video_path, model, preproces
 
 if __name__ == "__main__":
     # Target Video
-    input_video = "Solar Panel Videos/Clean Solar Panel 2.mp4"
+    input_video = "Solar Panel Videos/Clean Solar Panel 1.mp4"
     video_name = os.path.splitext(os.path.basename(input_video))[0]
     
     print(f"\n{'='*50}")
